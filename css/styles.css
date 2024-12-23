@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 0 20px;
+  background-color: #f8f9fa;
+  height: 60px;
+  position: relative; 
+  height: 12vh;
+  
+}
+
+.titulo{
+    margin: 0;
+  flex: 0 0 auto; 
+  text-decoration:none ;
+}
+
+.sub{
+    text-decoration: none;
+}
+
+nav{
+    position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+nav button{
+    margin: 0 10px;
+}
+
+.altura-img-carrousel{
+    height: 500px;
+}
+
+main{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-tlt{
+    margin-top: 20px;
+}
+
+footer{
+    height: 5vh;
+}
+
+/*Temporadas*/
+
+.altura-img-card{
+    height: 300px;
+}
+
+.temporada1{
+    display: none;
+}
+
+.temporada2{
+    display: none;
+}
+
+.temporada3{
+    display: none;
+}
+
+.temporada4{
+    display: none;
+}
+
+.temporada5{
+    display: none;
+}
+
+.temporada6{
+    display: none;
+}
+
+.temporada7{
+    display: none;
+}
+
+.temporada8{
+    display: none;
+}
+
+.temporada9{
+    display: none;
+}
+
+/* Personajes */
+
+.personajes-lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.personaje {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    color: blue;
+}
+
+.personaje img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.personaje h3, .personaje p {
+    margin: 10px 0;
+}
